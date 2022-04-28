@@ -13,9 +13,6 @@ class Main {
             return Math.random();
         });
 
-    drivetrain.init();
-    shooter.init();
-
     while(!drivetrain.isFinished()){
         drivetrain.execute();
     }
